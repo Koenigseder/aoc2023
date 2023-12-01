@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("Day 1 2023 - Part I\n")
 
 	// Read input file
-	file, err := os.Open("./day1/I/input.txt")
+	file, err := os.Open("./day1/input.txt")
 	if err != nil {
 		log.Fatalf("Error while reading file: %v", err)
 	}
